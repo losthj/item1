@@ -1,0 +1,1305 @@
+.account-warp {
+  background-color: #ebebeb;
+  padding-bottom: 50px;
+  .text-golden {
+    color: #ae9b7d;
+  }
+  .text-green {
+    color: #7ed5a0;
+  }
+  .text-red {
+    color: #fd6281;
+  }
+  .text-orange {
+    color: #fd8a1f;
+  }
+  .account-title {
+    line-height: 60px;
+  }
+  .linear-red {
+    background: linear-gradient(to right, #fc5556, #fd5e74, #fe658c);
+    &:hover {
+      background: linear-gradient(to right, #ef3234, #e23b52, #ec5d71);
+    }
+  }
+  .linear-golden {
+    background: linear-gradient(to right, #cdb37c, #b9a172, #a18b64);
+    &:hover {
+      background: linear-gradient(to right, #bca36f, #ab9365, #958059);
+    }
+  }
+  .menu-wrap{
+    float: left;
+    width: 176px;
+    overflow: hidden;
+  }
+  .left-menu {
+    width: 176px;
+    background-color: #fff;
+    text-align: center;
+    box-shadow: 2px 2px 2px #e4e4e4;
+  }
+  .user-con {
+    padding: 27px 0 17px;
+    text-align: center;
+    .user-img {
+      width: 84px;
+      height: 84px;
+      padding: 1px;
+      border: 1px solid #ebebeb;
+      border-radius:50%;
+    }
+    .user-list {
+      li {
+        height: 20px;
+        line-height: 20px;
+        font-size: 12px;
+        img {
+          height: 18px;
+          margin:0 5px;
+          border-radius: 50%;
+        }
+      }
+    }
+  }
+  .sign-btn {
+    margin: 10px auto 0;
+    color: #fff;
+    width: 120px;
+    height: 30px;
+    font-size: 18px;
+    border-radius: 100px;
+  }
+  .menu-list {
+    .menu-list-item {
+      height: 45px;
+      line-height: 45px;
+      border-top:1px solid #e5e5e5;
+      a {
+        display: block;
+        height: 45px;
+        color: #666;
+      }
+      span {
+        padding-right: 10px;
+      }
+      &:hover, &.menu-list-current {
+        border-color: #d7c9ac;
+        background: linear-gradient(to right, #e1d1b1, #d5c7aa, #c6b9a2);
+        a {
+          color: #fff;
+        }
+      }
+    }
+
+  }
+
+  .account-main {
+    float: right;
+    padding: 12px 30px 50px;
+    width: 900px;
+    background-color: #fff;
+    box-shadow: 0 0 2px #e4e4e4;
+  }
+  .m-account-info {
+    padding-bottom: 13px;
+    border-bottom: 1px solid #e5e5e5;
+    .m-account {
+      float: left;
+    }
+    .m-account-item {
+      position: relative;
+      width: 220px;
+      height: 215px;
+      padding-right: 10px;
+      padding-bottom: 5px;
+      float: left;
+      border-right: 1px solid #e5e5e5;
+      &:nth-of-type(2){
+        padding-left: 30px;
+        width: 190px;
+      }
+      span {
+        @extend .text-golden;
+        padding-left: 10px;
+      }
+      .u-btn-con {
+        position: absolute;
+        left: 0;
+        bottom: 5px;
+      }
+      .u-btn {
+        display: inline-block;
+        text-align: center;
+        width: 100px;
+        height: 30px;
+        line-height: 30px;
+        color: #fff;
+        border-radius:3px;
+        margin-right: 10px;
+        font-size: 16px;
+        &:nth-of-type(2){
+          width: 98px;
+          color: #999;
+          background-color: #f2f2f2;
+          border:1px solid #e5e5e5;
+          &:hover {
+            color: #000;
+          }
+        }
+      }
+    }
+  }
+  .m-extra {
+    width: 436px;
+    float: left;
+  }
+  .m-extra-li {
+    position: relative;
+    width: 110px;
+    padding: 0 28px;
+    float: left;
+    background-color:rgba(255,255,255,.9);
+    text-align: center;
+    margin-left: -76px;
+    left: 0;
+    transition: left .3s;
+    .m-extra-img {
+      height: 88px;
+      background: url(https://img.jylc168.com/Asset/User/common/image/account/other_5.gif) 50% 50% no-repeat;
+    }
+    &:hover {
+      left:50px;
+    }
+    &:nth-of-type(1){
+      margin-left: 0;
+      z-index: 4;
+      &:hover {
+        left: 0;
+      }
+    }
+    &:nth-of-type(2){
+      z-index: 3;
+      .m-extra-img {
+        height: 88px;
+        background: url(https://img.jylc168.com/Pc/account/index/icon_extra2.png) 50% 50% no-repeat;
+      }
+    }
+    &:nth-of-type(3){
+      z-index: 2;
+      .m-extra-img {
+        height: 88px;
+        background: url(https://img.jylc168.com/Pc/account/index/icon_extra3.png) 50% 50% no-repeat;
+      }
+    }
+    &:nth-of-type(4){
+      .m-extra-img {
+        height: 88px;
+        background: url(https://img.jylc168.com/Pc/account/index/icon_extra4.png) 50% 50% no-repeat;
+      }
+    }
+    .m-extra-info {
+      line-height: 32px;
+      strong{
+        @extend .text-orange;
+        font-size: 18px;
+      }
+    }
+    .m-extra-btn{
+      display: block;
+      height: 30px;
+      line-height: 30px;
+      border-radius:3px;
+      color: #333;
+      background-color: #f2f2f2;
+      border:1px solid #e5e5e5;
+      margin-top: 20px;
+    }
+  }
+  .u-title {
+    line-height: 40px;
+  }
+  .u-number {
+    font-weight: 800;
+    line-height: 44px;
+    font-size: 26px;
+    @extend .text-golden;
+  }
+  .chart-con {
+    padding: 20px 0;
+    border-bottom: 1px solid #e5e5e5;
+  }
+  .chart-title {
+    font-weight: 800;
+    font-size: 18px;
+    strong {
+      padding-left: 20px;
+      font-size: 26px;
+    }
+    span {
+      padding-left: 10px;
+    }
+    .bill-link {
+      float: right;
+      margin:13px 130px 0 0;
+      color:#b8a88c;
+      font-size:14px;
+      height: 14px;
+      line-height: 14px;
+      padding-right: 8px;
+      border-right:1px solid #e5e5e5;
+      &:hover{
+        color: #784f0a;
+      }
+    }
+  }
+  .chart-main {
+    padding: 50px 0 20px;
+    text-align: center;
+    .chart-num {
+      font-size: 20px;
+      line-height: 32px;
+      font-weight: 800;
+      color: #a08a64;
+    }
+    
+  }
+
+  .m-summary {
+    padding: 40px 0 20px;
+    border-bottom: 1px solid #e5e5e5;
+    .chart-date {
+      height: 335px;
+      border-right: 1px solid #e5e5e5;
+      padding-right: 25px;
+      .chart-date-con {
+        width: 100%;
+        margin-top: 7px;
+      }
+    }
+    .chart-line {
+      padding-left: 20px;
+      .chart-line-txt{
+        margin-top: -20px;
+        font-size: 12px;
+        span {
+          color: #a08a64;
+          margin: 0 10px;
+          line-height: 26px;
+          &:nth-of-type(2){
+            position: relative;
+            top: 2px;
+            font-size: 23px;
+          }
+        }
+      }
+    }
+  }
+  .account-calc {
+    padding: 20px 0 0;
+    .calc-row {
+      padding: 20px 0;
+      .calc-col {
+        position: relative;
+        padding-left: 10px;
+        &:before {
+          content: "";
+          position: absolute;
+          width: 4px;
+          height: 4px;
+          left: 0;
+          top: 50%;
+          margin-top: -2px;
+          background-color: #a08a64;
+        }
+      }
+      strong {
+        font-size: 18px;
+        color: #a08a64;
+        padding: 0 5px 0 20px;
+      }
+    }
+  }
+
+  // 充值
+  .m-charge {
+    padding: 28px 0 60px;
+    .charge-title {
+      font-weight: 800;
+      font-size: 20px;
+      line-height: 40px;
+      border-bottom:2px solid #e5e5e5;
+    }
+  }
+  .m-tab {
+    position: relative;
+    top: -31px;
+    .zent-tabs-nav {
+      border:none;
+    }
+    .zent-tabs-tabwrap {
+      float: right;
+      .zent-tabs-tab {
+        border: none;
+        width: 146px;
+        height: 31px;
+        line-height: 31px;
+        padding: 0;
+        background:#fff url(https://img.jylc168.com/Pc/account/index/tab_current.png) 50% 50% no-repeat;
+        &.zent-tabs-actived {
+          background-image: url(https://img.jylc168.com/Pc/account/index/tab_bg.png);
+        }
+        .zent-tabs-tab-inner {
+          font-size: 14px;
+          padding: 0;
+        }
+      }
+      
+      
+    }
+  }
+  .m-form {
+    padding-top: 20px;
+    .zent-form__control-label {
+      font-size: 14px!important;
+    }
+    .zent-form__controls {
+      width: 500px;
+      .zent-input-wrapper {
+        width: 222px;
+        height: 32px;
+        line-height: 32px;
+        display: inline-block;
+        &:has(> span.yzm-btn) {
+          float: left;
+        }
+      }
+      .zent-form__error-desc {
+        display: inline-block;
+        margin-left: 10px;
+      }
+    }
+    .zent-input {
+      width: 222px;
+    }
+    .u-btn {
+      width: 222px;
+      height: 34px;
+      line-height: 34px;
+      border-radius:2px;
+      color: #fff;
+      outline: none;
+      border:none;
+      cursor: pointer;
+    }
+    .u-info {
+      font-size: 12px;
+      margin-top: 10px;
+      span {
+        padding-right: 10px;
+        display: inline-block;
+        vertical-align: bottom;
+      }
+    }
+
+    
+  }
+  .m-tab-con {
+    .charge-info {
+      padding: 0 30px;
+      line-height: 48px;
+      border:1px solid #e5e5e5;
+      font-size: 12px;
+      .charge-item {
+        padding-left: 75px;
+      }
+      strong {
+        font-size: 16px;
+        padding:0 3px 0 20px;
+      }
+    }
+    .u-title {
+      padding: 30px 0 20px;
+      font-weight: 700;
+    }
+
+    .assets-item {
+      border:1px solid #e5e5e5;
+      padding: 15px 40px 15px 20px;
+      line-height: 30px;
+    }
+
+    .m-invest-li {
+      padding: 20px 0;
+      border:1px solid #e5e5e5;
+      margin-bottom: 16px;
+      font-size: 12px;
+      .li-item {
+        padding-left: 40px;
+        line-height: 34px;
+        .u-btn {
+          display: inline-block;
+          height: 35px;
+          line-height: 35px;
+          width: 164px;
+          margin-top: 15px;
+          color: #fff;
+          border-radius:3px;
+          text-align: center;
+          font-size: 14px;
+        }
+        .progress-outer {
+          display: inline-block;
+          vertical-align: middle;
+          width: 100px;
+          height: 3px;
+          margin-left: 10px;
+          border-radius:10px;
+          background-color: #e5e5e5;
+          .progress-inner {
+            position: relative;
+            height: 3px;
+            border-radius:10px;
+            background: linear-gradient(to right, #a18b64, #bca473, #cdb37d);
+            &:after {
+              content: "";
+              position: absolute;
+              right: -4.5px;
+              top: -2px;
+              width: 7px;
+              height: 7px;
+              border-radius:50%;
+              background: linear-gradient(to right, #a18b64, #bca473, #cdb37d);
+            }
+          }
+        }
+      }
+    }
+
+    .m-lend-info {
+      position: relative;
+      margin-top: 25px;
+      border:1px solid #e5e5e5;
+      padding: 20px 0 32px 20px;
+      font-size: 12px;
+      .lend-info-title {
+        line-height: 56px;
+      }
+      .lend-info-item {
+        position: relative;
+        line-height: 34px;
+        &:after{
+          content: "";
+          position: absolute;
+          right: -1px;
+          top: 10%;
+          width: 1px;
+          height: 80%;
+          background-color: #e5e5e5;
+        }
+        div {
+          padding-left: 10px;
+        }
+        &:nth-of-type(1){
+          div {
+            padding-left: 0;
+          }
+        }
+      }
+      .lend-pact {
+        margin-top: 30px;
+        text-align: center;
+        a {
+          display: inline-block;
+          width: 198px;
+          height: 36px;
+          line-height: 36px;
+          font-size: 14px;
+          border: 1px solid #c7b9a2;
+          color:#c7b9a2;
+          border-radius:3px;
+          box-shadow: 0 0 2px #c7b9a2 inset;
+        }
+      }
+      .lend-result {
+        position: absolute;
+        width: 77px;
+        right:32px;
+        bottom:15px;
+      }
+    }
+    /*现金券*/
+    .m-cashs,.m-extract,m-interest,.m-daycard,.m-monthcard,.m-weekcard {
+      margin-top: 23px;
+    }
+
+    .cashs-list,.extract-list,.interest-list {
+      margin-top: 30px;
+      padding-bottom: 10px;
+    }
+
+    .cashs-list ul {
+      margin-left: -17px;
+    }
+
+    .cashs-list li {
+      width: 290px;
+      height: 150px;
+      float: left;
+      margin: 0 0 20px 10px;
+      position: relative;
+      font-size: 12px;
+    }
+
+    .cashs-b {
+      position: relative;
+      width: 277px;
+      height: 138px;
+      padding: 8px 0 10px 17px;
+      color: #fff;
+      background: url(https://img.jylc168.com/Asset/User/common/image/card/cash-bg04.jpg) no-repeat 0 0;
+    }
+
+    .cashs-number {
+      font-size: 48px;
+      font-family: Impact;
+      position: relative;
+      left: 24px;
+      top: 22px;
+      line-height: 48px;
+    }
+
+    .cashs-text {
+      margin-top: 45px;
+      line-height: 16px;
+    }
+    .interest-bottom {
+      margin-top: 22px;
+      line-height: 16px;
+    }
+
+    .cashs-use .cashs-b {
+      background-image: url(https://img.jylc168.com/Asset/User/common/image/card/cash-bg05.jpg);
+    }
+
+    .cashs-over .cashs-b {
+      background-image: url(https://img.jylc168.com/Asset/User/common/image/card/cash-bg06.jpg);
+    }
+
+    .renew-btn {
+      position: absolute;
+      right: 30px;
+      top: 8px;
+      width: 48px;
+      height: 30px;
+      cursor: pointer;
+    }
+
+    /*提现券+日卡+月卡+周卡*/
+    .m-daycard .m-accs-title span,.m-monthcard .m-accs-title span,.m-weekcard .m-accs-title span {
+      font-weight: 100;
+      font-size: 12px;
+    }
+
+    .m-unopened {
+      margin: 20px 0;
+      position: relative;
+    }
+
+    .m-opened {
+      width: 165px;
+      position: absolute;
+      top: 84px;
+      left: 87px;
+      text-align: center;
+      color: #390d82
+    }
+
+    .m-opened p {
+      height: 20px;
+      background: #390D82;
+      color: #fff;
+      border-radius: 15px;
+    }
+
+    .m-monthcard .m-opened {
+      color: #c86a05
+    }
+
+    .m-monthcard .m-opened p,.m-monthcard .extract-btn {
+      background: #c86a05
+    }
+
+    .m-weekcard .m-opened {
+      color: #0d7620
+    }
+
+    .m-weekcard .m-opened p,.m-weekcard .extract-btn {
+      background: #0d7620
+    }
+
+    .extract-list ul {
+      margin-left: -19px;
+    }
+
+    .extract-list li {
+      width: 290px;
+      height: 148px;
+      float: left;
+      margin: 0 0 20px 18px;
+      position: relative;
+    }
+
+    .extract-btn {
+      position: absolute;
+      top: 94px;
+      left: 117px;
+      width: 102px;
+      height: 28px;
+      line-height: 28px;
+      text-align: center;
+      font-size: 14px;
+      color: #fff;
+      background: #390D82;
+      border-radius: 5px;
+    }
+
+    .extract-btn:hover {
+      color: #fff;
+    }
+
+    .extract-stop {
+      opacity: .3;
+      filter: alpha(opacity=30);
+    }
+
+    .extract-stop .extract-btn {
+      cursor: default;
+    }
+    /*加息卡 新*/
+    .interest-list ul {
+      margin-left: -20px;
+    }
+
+    .interest-list li {
+      width: 290px;
+      height: 160px;
+      float: left;
+      margin: 0 0 20px 20px;
+      position: relative;
+    }
+
+    .interest-b {
+      position: relative;
+      width: 257px;
+      height: 144px;
+      padding: 5px 10px 5px 10px;
+      color: #fff;
+      background: url(https://img.jylc168.com/Asset/User/common/image/card/inter-bg04.jpg) no-repeat 0 0;
+    }
+
+    .interest-text {
+      position: relative;
+      top: 8px;
+    }
+
+    .interest-text span {
+      font-size: 20px;
+      color: #5e1c08;
+    }
+
+    .interest-use .interest-b {
+      background-image: url(https://img.jylc168.com/Asset/User/common/image/card/inter-bg05.jpg);
+    }
+
+    .interest-use .interest-text span {
+      color: #575757
+    }
+
+    .interest-b .jy-text-l {
+      line-height: 16px;
+    }
+
+    .interest-over .interest-b {
+      background-image: url(https://img.jylc168.com/Asset/User/common/image/card/inter-bg06.jpg);
+    }
+
+    .interest-over .interest-text span {
+      color: #797979
+    }
+
+    .interest-rate {
+      font-family: Arial;
+      font-size: 45px;
+      color: #fff;
+      font-weight: bold;
+      margin-top: 11px;
+      padding-left: 24px;
+    }
+
+    .interest-rate-use {
+      opacity: .3;
+      filter: alpha(opacity=30)
+    }
+
+    .interest-rate-over {
+      color: #fff;
+      opacity: .8;
+      filter: alpha(opacity=80)
+    }
+    /*金币卡*/
+    .gold-b {
+      position: relative;
+      width: 257px;
+      height: 144px;
+      padding: 5px 10px;
+      color: #fff;
+      background: url(https://img.jylc168.com/Asset/User/common/image/card/gold-1.jpg) no-repeat 0 0;
+    }
+
+    .gold-use .gold-b {
+      background-image: url(https://img.jylc168.com/Asset/User/common/image/card/gold-2.jpg);
+    }
+
+    .gold-times {
+      margin-top: 19px;
+      text-align: center;
+    }
+
+    .gold-over .gold-b {
+      background-image: url(https://img.jylc168.com/Asset/User/common/image/card/gold-3.jpg);
+    }
+
+    .gold-rate {
+      font-family: Arial;
+      font-size: 64px;
+      color: #fff;
+      font-weight: bold;
+      margin-top: 36px;
+      padding-left: 38px;
+      line-height: 64px;
+    }
+
+    .gold-rate-use {
+      opacity: .5;
+      filter: alpha(opacity=50)
+    }
+
+    .gold-rate-over {
+      color: #fff;
+      opacity: .8;
+      filter: alpha(opacity=80)
+    }
+    /*金币保护卡*/
+    .aegis-b {
+      position: relative;
+      width: 257px;
+      height: 144px;
+      padding: 5px 10px;
+      color: #fff;
+      background: url(https://img.jylc168.com/Asset/User/common/image/card/aegis-1.jpg) no-repeat 0 0;
+    }
+
+    .aegis-use .aegis-b {
+      background-image: url(https://img.jylc168.com/Asset/User/common/image/card/aegis-2.jpg);
+    }
+
+    .aegis-times {
+      position: relative;
+      top: 118px;
+      text-align: center;
+    }
+
+    .aegis-over .aegis-b {
+      background-image: url(https://img.jylc168.com/Asset/User/common/image/card/aegis-3.jpg);
+    }
+
+    .aegis-rate {
+      font-family: Arial;
+      font-size: 45px;
+      color: #fff;
+      font-weight: bold;
+      margin-top: 11px;
+      padding-left: 24px;
+    }
+
+    .aegis-rate-use {
+      opacity: .5;
+      filter: alpha(opacity=50)
+    }
+
+    .aegis-rate-over {
+      color: #fff;
+      opacity: .8;
+      filter: alpha(opacity=80)
+    }
+    /*话费特兑卡*/
+    .travel-b {
+      position: relative;
+      width: 257px;
+      height: 144px;
+      padding: 5px 10px;
+      color: #fff;
+      background: url(https://img.jylc168.com/Asset/User/common/image/card/travel-1.jpg) no-repeat 0 0;
+    }
+
+    .travel-use .travel-b {
+      background-image: url(https://img.jylc168.com/Asset/User/common/image/card/travel-2.jpg);
+    }
+
+    .travel-times {
+      position: relative;
+      top: 118px;
+      text-align: center;
+    }
+
+    .travel-over .travel-b {
+      background-image: url(https://img.jylc168.com/Asset/User/common/image/card/travel-3.jpg);
+    }
+
+    .travel-rate {
+      font-family: Arial;
+      font-size: 45px;
+      color: #fff;
+      font-weight: bold;
+      margin-top: 11px;
+      padding-left: 24px;
+    }
+
+    .travel-rate-use {
+      opacity: .5;
+      filter: alpha(opacity=50)
+    }
+
+    .travel-rate-over {
+      color: #fff;
+      opacity: .8;
+      filter: alpha(opacity=80)
+    }
+    /*折扣券*/
+    .sale-b {
+      position: relative;
+      width: 257px;
+      height: 144px;
+      padding: 5px 10px;
+      color: #fff;
+      background: url(https://img.jylc168.com/Asset/User/common/image/card/sale-1.jpg) no-repeat 0 0;
+    }
+
+    .sale-use .sale-b {
+      background-image: url(https://img.jylc168.com/Asset/User/common/image/card/sale-2.jpg);
+    }
+
+    .sale-times {
+      margin-top: 18px;
+      line-height: 16px;
+      padding-left: 16px;
+    }
+
+    .sale-over .sale-b {
+      background-image: url(https://img.jylc168.com/Asset/User/common/image/card/sale-3.jpg);
+    }
+
+    .sale-rate {
+      font-family: Arial;
+      font-size: 64px;
+      color: #fff;
+      font-weight: bold;
+      margin-top: 30px;
+      padding-left: 10px;
+      line-height: 64px;
+    }
+
+    .sale-rate-use {
+      opacity: .5;
+      filter: alpha(opacity=50)
+    }
+
+    .sale-rate-over {
+      color: #fff;
+      opacity: .8;
+      filter: alpha(opacity=80)
+    }
+
+  }
+  .active-item {
+    position: relative;
+    padding: 10px 20px 10px 10px;
+    background-color:#f5f2e9;
+    text-align: center;
+    border-radius:4px;
+    margin-bottom: 10px;
+    &.active-over:after {
+      content: "";
+      position: absolute;
+      top: 12px;
+      left: 12px;
+      width: 720px;
+      height: 172px;
+      background-color: rgba(255,255,255,.3);
+    }
+    img {
+      display: inline-block;
+      vertical-align: middle;
+      width: 720px;
+      height: 172px;
+      border:2px solid #cabda6;
+      border-radius:2px;
+    }
+    .u-btn {
+      display: inline-block;
+      vertical-align: middle;
+      width: 126px;
+      height: 35px;
+      line-height: 35px;
+      margin-left: 20px;
+      color: #fff;
+      border-radius:3px;
+    }
+  }
+  // 账户管理
+  .m-manage {
+    border:1px solid #e5e5e5;
+    margin-bottom: 10px;
+    .manage-con {
+      padding:0px 30px 0 10px;
+      display: flex;
+      height: 106px;
+      align-items: center;
+      font-size: 12px;
+      .manage-icon {
+        width: 90px;
+        height: 100%;
+        background-position: 50% 50%;
+        background-repeat: no-repeat;
+        background-image: url(https://img.jylc168.com/Pc/account/index/set_1.png);
+      }
+      .manage-icon2{
+        background-image: url(https://img.jylc168.com/Pc/account/index/set_2.png);
+      }
+      .manage-icon3{
+        background-image: url(https://img.jylc168.com/Pc/account/index/set_3.png);
+      }
+      .manage-icon4{
+        background-image: url(https://img.jylc168.com/Pc/account/index/set_4.png);
+      }
+      .manage-icon5{
+        background-image: url(https://img.jylc168.com/Pc/account/index/set_5.png);
+      }
+      .manage-icon6{
+        background-image: url(https://img.jylc168.com/Pc/account/index/set_6.png);
+      }
+      .manage-icon7{
+        background-image: url(https://img.jylc168.com/Pc/account/index/set_7.png);
+      }
+      .manage-title {
+        width: 220px;
+        .title-info {
+          span {
+            color: #47c047;
+            font-size: 13px;
+            padding-right: 3px;
+          }
+          color: #999;
+        }
+      }
+      .manage-info {
+        width: 440px;
+      }
+      .manage-btn {
+        display: inline-block;
+        width: 100px;
+        height: 28px;
+        line-height: 28px;
+        text-align: center;
+        color: #fff;
+        border-radius:3px;
+        cursor: pointer;
+      }
+    }
+
+    .info-title {
+      line-height: 40px;
+      padding:0 30px;
+      font-weight: 700;
+      font-size: 16px;
+      background-color: #f5f2e9;
+      border-top: 1px solid #e5e5e5;
+      border-bottom: 1px solid #e5e5e5;
+    }
+  }
+  .visa-img {
+    position: relative;
+    width: 905px;
+    height: 230px;
+    background: url(https://img.jylc168.com/Asset/User/common/image/account/visa-img.jpg) no-repeat center center;
+  }
+
+  .visa-intr1 {
+    position: absolute;
+    top: 125px;
+    left: 18px;
+    color: #f1c380;
+    font-size: 16px;
+  }
+
+  .visa-intr2 {
+    position: absolute;
+    bottom: 25px;
+    left: 20px;
+    color: #999;
+  }
+
+  .visa-intr2 a {
+    color: #f1c380;
+  }
+
+  .visa-intr3 {
+    position: absolute;
+    top: 33px;
+    left: 582px;
+    color: #f1c380;
+    font-size: 16px;
+  }
+  .visa-info {
+    margin-top: 20px;
+  }
+  .visa-con {
+    margin-top: 20px;
+    border:2px dashed #e2bb79;
+    background-color:#f5f2e9;
+    width: 420px;
+    height: 174px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .visa-bottom {
+    font-size: 12px;
+    line-height: 2.2;
+    margin-top: 25px;
+    img {
+      vertical-align: middle;
+      margin-right: 3px;
+    }
+  }
+  .risk-ul {
+    margin: 25px 0;
+  }
+  .risk-li {
+    padding: 18px 0 0px 0;
+    border-top:1px solid #e5e5e5;
+    .radio-item {
+      height: 32px;
+      line-height: 32px;
+      .zent-radio {
+        top: -2px;
+      }
+    }
+  }
+  .card-con {
+    .card-item {
+      position: relative;
+      float: left;
+      padding:15px;
+      width: 237px;
+      height: 126px;
+      margin-right: 20px;
+      background: url(https://img.jylc168.com/Pc/account/index/card_bg.png) 50% 50% no-repeat;
+      color: #fff;
+      .card-info {
+        position: absolute;
+        left: 15px;
+        bottom: 10px;
+        font-size: 12px;
+        line-height: 1.8;
+        strong {
+          font-size: 16px;
+        }
+      }
+      .card-img img{
+        height: 36px;
+      }
+      .card-corner {
+        position: absolute;
+        right: 15px;
+        bottom: 15px;
+        font-size: 14px;
+      }
+    }
+    .no-card {
+      float: left;
+      width: 265px;
+      height: 156px;
+      border:1px dashed #e5e5e5;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: #999;
+      line-height: 34px;
+      border-radius:8px;
+      text-align: center;
+      strong {
+        font-size: 26px;
+      }
+    }
+
+  }
+  // 修改密码
+  #yzm-con {
+    .zent-form__control-group:nth-of-type(2){
+      .zent-input-wrapper {
+        float: left;
+        width: 106px;
+        .zent-input {
+          width: 106px;
+        }
+      }
+      .zent-form__help-desc {
+        float: left;
+        margin-top: 0;
+      }
+    }
+    .yzm-btn {
+      cursor: pointer; 
+      float: left;
+      width: 106px;
+      text-align: center;
+      margin-left: 10px;
+      background-color: #f3a34b;
+      color: #fff;
+      border-radius:3px;
+      height: 32px;
+      line-height: 32px;
+    }
+  }
+  .message-con {
+    padding:10px 25px;
+    div:nth-of-type(1) {
+      margin:15px 0 20px;
+    }
+    img {
+      width: 760px;
+      margin-left: 40px;
+    }
+  }
+  .task-title {
+    position: relative;
+    margin: 30px 0;
+    height: 52px;
+    line-height: 55px;
+    background: url(https://img.jylc168.com/Pc/account/index/task_title.png) 0 50% no-repeat;
+    color: #fff;
+    text-indent: 20px;
+    left: -35px;
+    &.auto-bg {
+      width: 180px;
+      background-size: 100% 100%;
+    }
+  }
+  .friend-share {
+    .share-title {
+      padding:0 0 15px 20px;
+      span {
+        padding-right: 5px;
+        font-size: 24px;
+      }
+    }
+    .share-con {
+      width: 440px;
+      padding: 25px 0;
+      border:1px dashed #e5e5e5;
+      border-radius:8px;
+      text-align: center;
+      &.share-img {
+        padding-top: 118px;
+        background: url(https://img.jylc168.com/Pc/account/index/share_1.png) 50% 25px no-repeat;
+        .share-link {
+          display: inline-block;
+          width: 210px;
+          border-radius:2px;
+          border:1px solid #e5e5e5;
+          font-size: 12px;
+          padding:5px 20px;
+          margin-top: 8px;
+        }
+        .u-btn {
+          width: 136px;
+          height: 34px;
+          line-height: 34px;
+          color: #fff;
+          border-radius:3px;
+          display: inline-block;
+          cursor: pointer;
+        }
+      }
+      .share-code {
+        width: 142px;
+        height: 140px;
+        margin: 0 auto;
+        border-radius:5px;
+        background: url(https://img.jylc168.com/Pc/account/index/share_2.png) 50% 50% no-repeat;
+        img {
+          width: 108px;
+          height: 108px;
+        }
+      }
+    }
+  }
+  .bdshare{
+    text-align: center;
+    padding-top: 21px;
+    a {
+      display: inline-block!important;
+      margin: 0 6px !important;
+      width:40px!important;
+      height:40px!important;
+      background-position: 50% 50%!important;
+      background-repeat: no-repeat!important;
+      float: none!important;
+    }
+    .bds_weixin {
+      background-image:url('https://img.jylc168.com/Pc/account/index/share_wx.png')!important;
+    }
+    .bds_tsina {
+      background-image:url('https://img.jylc168.com/Pc/account/index/share_sina.png')!important;
+    }
+    .bds_qzone {
+      background-image:url('https://img.jylc168.com/Pc/account/index/share_qzone.png')!important;
+      
+    }
+    .bds_tqq {
+      background-image:url('https://img.jylc168.com/Pc/account/index/share_qq.png')!important;
+    }
+  }
+  .message-btn {
+    float: right;
+    span {
+      cursor: pointer;
+      display: inline-block;
+      width: 86px;
+      height: 30px;
+      line-height: 30px;
+      text-align: center;
+      margin-left: 6px;
+      border-radius: 3px;
+      background: linear-gradient(to right, #dedede, #d5d6d5, #cdcdce);
+      &:hover {
+        background: linear-gradient(to right, #c5c0c0, #bebfbe, #aaaaab);
+      }
+    }
+  }
+
+  // 分页  
+  .zent-pagination {
+    margin-top: 30px;
+  }
+  .zent-pagination .pagination-list .pager--current {
+    border-color: #a08a64;
+    background-color:#a08a64;
+  }
+  .zent-grid-tfoot {
+    margin-top:25px;
+  }
+
+}

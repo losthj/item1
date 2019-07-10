@@ -1,0 +1,258 @@
+.border-color {
+  border-color: #e5e5e5
+}
+.web-info {
+  padding: 30px 0;
+  line-height: 24px;
+  border-bottom-width:1px;
+  border-style: solid;
+  @extend .border-color;
+}
+.operate-num {
+  line-height: 38px;
+  color: #b19748;
+  font-size: 24px;
+  white-space: nowrap
+}
+
+.operate-num span {
+  font-size: 16px;
+}
+
+.infoItem {
+  padding-left: 78px;
+}
+
+.characterList {
+  padding: 30px 0 70px;
+}
+
+.characterItem {
+  line-height: 22px;
+  color: #666;
+  padding-left: 35px;
+}
+
+.character-title {
+  font-size: 18px;
+  color: #424242;
+  line-height: 32px;
+}
+
+.character-icon {
+  float: left;
+  width: 98px;
+  height: 80px;
+  background: url(https://img.jylc168.com/Pc/home/index/icon1.png) 50% 50% no-repeat;
+  margin-right: 10px;
+}
+
+.character-icon-2 {
+  background-image: url(https://img.jylc168.com/Pc/home/index/icon2.png);
+}
+
+.character-icon-3 {
+  background-image: url(https://img.jylc168.com/Pc/home/index/icon3.png);
+}
+
+.character-icon-4 {
+  background-image: url(https://img.jylc168.com/Pc/home/index/icon4.png);
+}
+
+.project-main{
+  padding:0 25px;
+  border-width:1px;
+  border-style:solid;
+  overflow: hidden;
+  @extend .border-color;
+}
+.project-top {
+  height: 45px;
+  a{
+    font-size: 16px;
+  }
+}
+.project-item {
+  padding: 20px 5px;
+  border-bottom: 1px dashed #cfcfcf;
+  margin-bottom: -1px;
+  .rate-num {
+    color: #d4a539;
+    font-size: 28px;
+    line-height: 30px;
+    span {
+        font-size: 14px;
+    }
+  }
+
+  .m-btn {
+    margin-top: -30px;
+  }
+
+  .progress-outter {
+    margin-top: 20px;
+  }
+}
+.col-item {
+  height: 36px;
+  line-height: 36px;
+  text-align: center;
+  .strong {
+      font-size: 16px;
+  }
+}
+.m-media {
+  &:nth-of-type(1){
+      margin-right: 6px;
+  }
+  padding: 0 20px 10px;
+  border-width:1px;
+  border-style:solid;
+  overflow: hidden;
+  @extend .border-color;
+  .media-title {
+    height: 57px;
+    border-bottom-width: 1px;
+    border-style: dashed;
+    @extend .border-color;
+    span {
+      padding: 0 3px;
+      line-height: 57px;
+      font-size: 18px
+    }
+  a {
+    float: right;
+    color: #666;
+    line-height: 57px;
+  }
+}
+
+.media-list {
+  margin-top: 15px;
+  li{
+    height: 32px;
+    line-height: 32px;
+    span{
+      float: left;
+      width: 360px;
+    }
+    i {
+      font-style: normal;
+      float: right;
+      width: 155px;
+      text-align: right;
+    }
+  }
+    &.invest-list {
+      height: 160px;
+      overflow: hidden;
+      .invest-li {
+        width: 100%;
+          div {
+            float: left;
+            width: 132px;
+          }
+          div:nth-of-type(2) {
+            width: 100px;
+          }
+          div:nth-of-type(3) {
+            width: 163px;
+          }
+      }
+    }
+  }
+}
+
+// 合作伙伴
+.m-partner {
+  padding: 25px 0 0 55px;
+  .partner-title {
+    margin-top: 20px;
+    font-size: 22px;
+  }
+  .partner-list {
+    li {
+      &:nth-of-type(5n){
+       border:none;
+      }
+       &:nth-of-type(5n+1) {
+        padding-left: 0;
+      }
+      margin: 17px 0;
+      float: left;
+      width: 180px;
+      height: 54px;
+      padding: 4px 21px;
+      border-right: 1px solid #cfcfcf;
+      img {
+        width: 180px;
+        height: 54px
+      }
+    }
+  }
+}
+// banner info
+.banner-warp {
+  position: relative;
+  .wap-info {
+    position: absolute;
+    left: 50%;
+    top: 20px;
+    margin-left: 319px;
+  }
+  .user-info {
+    width: 216px;
+    height: 274px;
+    padding: 20px;
+    background: url(https://img.jylc168.com/Pc/home/index/login_bg.png) 100% 50% no-repeat
+  }
+  .user-btn {
+    display: block;
+    border-radius: 1px;
+    text-align: center;
+    height: 42px;
+    line-height: 42px;
+    color: #fff;
+    font-size: 18px;
+    border: 1px solid #fff;
+    border: 1px solid rgba(255,255,255,.6);
+    opacity: .9;
+    margin-bottom: 13px;
+  }
+  .user-btn-2,.user-btn:hover {
+    background: -webkit-linear-gradient(#c98113, #654514);
+    border: none;
+    height: 44px;
+    line-height: 44px;
+    color: #fff;
+    box-shadow: 0 0 3px #775218;
+  }
+  .user-btn-2 {
+    margin-top: 30px;
+    &:hover {
+      color: #000;
+    }
+  }
+  .user-logined {
+    margin-top: 25px;
+    padding: 5px 0 5px 20px;
+    line-height: 30px;
+    font-size: 14px;
+    border: 1px solid #fff;
+    border-color: rgba(255,255,255,.4);
+    background-color: rgba(255,255,255,.2)
+  }
+  .user-logined a:hover {
+    color: #fff;
+  }
+  .login-icon {
+    height: 24px;
+    margin-right: 10px;
+    vertical-align: middle;
+    &:nth-fo-type(2){
+      margin-left: 5px;
+      height: 30px;
+    }
+  }
+}
+

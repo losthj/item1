@@ -1,0 +1,317 @@
+.jy-fl{float: left;}
+.jy-fr{float: right;}
+.jy-text-c{text-align: center;}
+.jy-mt-30{margin-top: 30px;}
+.clearfix:after{content:".";display:block;height:0;clear:both;visibility:hidden}
+.clearfix{zoom:1}
+img{vertical-align:middle;}
+.jy-pos-r{position: relative;}
+.jy-pos-a {position: absolute;}
+.jy-gary{color: #aaaaaa}
+
+/*----------关于我们----------*/
+.bd-wrap{height: 240px;background: url(https://img.jylc168.com/Pc/home/about/about-1.jpg) no-repeat 50% 50%;}
+.bd-wrap-text{font-size: 30px;color: #424242;line-height: 240px;}
+.page-container{margin-top: 50px;padding-bottom: 80px;min-height: 445px;}
+.main-l{width: 260px;margin-right: 10px;}
+.main-r{width: 878px;border: 1px solid #e5e5e5;}
+.main-rp{padding: 40px 30px;}
+.leftmenu{width: 260px;}
+.leftmenu ul{border-bottom: 11px solid #e5e5e5;}
+.leftmenu li{position: relative;height: 60px;width: 258px;border: 1px solid #e5e5e5;text-align: center;line-height: 60px;color: #aaaaaa;font-size: 16px;cursor: pointer;}
+.leftmenu li a{display: block;color: #aaaaaa;}
+.leftmenu li a:hover,.leftmenu li a.on{position: absolute;top: 0;color: #424242;left: -11px;width: 270px;height: 72px;background: url(https://img.jylc168.com/Pc/home/about/icon.png) no-repeat 0 0;text-indent: 10px;}
+.vice-head{height: 30px;line-height: 30px;background: #e9e9e9;font-size: 18px;padding-left: 18px;}
+.about-head{margin: 40px 0 0 0;height: 58px;font-size: 16px;text-align: center;background: url(https://img.jylc168.com/Pc/home/about/wire1.png) no-repeat center center;}
+.about-head1{line-height: 58px;background-image: url(https://img.jylc168.com/Pc/home/about/wire2.png);}
+/*有赞tap控件样式改*/
+.about-tabs .zent-tabs{margin-top: 30px;margin-bottom: 65px;}
+.about-tabs .zent-tabs-scroll{overflow-x:initial}
+.about-tabs .zent-tabs-nav-content{height: 30px;margin-bottom: 20px;}
+.about-tabs .zent-tabs-tabwrap{left: 197px;}
+.about-tabs .zent-tabs-tab-inner,.about-tabs .zent-tabs .zent-tabs-actived .zent-tabs-tab-inner{padding: 0px;}
+.about-tabs .zent-tabs-nav{border: 0;}
+.about-tabs .zent-tabs-tab{width: 128px;height: 28px;line-height: 28px;margin-right: 25px;border: 1px solid #dedede;border-radius: 25px;}
+.about-tabs.zent-tabs-tab:first-child,.about-tabs .zent-tabs-tab:last-child{border: 1px solid #dedede;border-radius: 25px;}
+.about-tabs .zent-tabs .zent-tabs-actived{background: #ffd630;border:1px solid #ffd630;}
+.about-mt{margin-top: 30px;}
+.about-line{border-top:2px dotted #e6e6e6;margin-top: 50px;}
+/*轮播图*/
+.carousel{width: 750px;height: 300px;margin: 48px auto 0;}
+.carousel .slick-prev{background: url(https://img.jylc168.com/Pc/home/about/arrow2.png) no-repeat 0 0;width: 25px;height: 25px;left: -30px;}
+.carousel .slick-prev:hover,.carousel .slick-prev:focus{background-image: url(https://img.jylc168.com/Pc/home/about/arrow3.png)}
+.carousel .slick-next{background: url(https://img.jylc168.com/Pc/home/about/arrow2.png) no-repeat 0 0;width: 25px;height: 25px;transform:rotate(180deg);right: -30px;}
+.carousel .slick-next:hover,.carousel .slick-next:focus{background-image: url(https://img.jylc168.com/Pc/home/about/arrow3.png);transform:rotate(180deg);}
+.carousel .slick-prev::before,.carousel .slick-next::before{content:'';background: url(https://img.jylc168.com/Pc/home/about/arrow2.png) no-repeat 0 0;width: 25px;height: 25px;}
+.carousel .slick-list{height: 260px;}
+.carousel .slick-track{padding-top: 55px;}
+.carousel .center .slick-center img{-ms-transform: scale(1.66,1.8);transform: scale(1.66,1.8);}
+.carousel img{width: 237px;height: 138px;border: 6px solid #ffd630;}
+.company-list{margin-top: 30px;}
+.company-list h5{text-align: center;margin: 20px 0 15px 0;}
+.company-text{padding: 0 60px;}
+.company-list .zent-row{margin-bottom: 40px;}
+.vice-header{position: relative;background: url(https://img.jylc168.com/Pc/home/about/medal.png) no-repeat 0 0;height: 167px;line-height: 167px;padding-left: 60px;font-size: 20px;}
+.vice-header i{position: absolute;background: #ffd630;width: 10px;height: 10px;top: 79px;left: 40px;}
+.vice-header1{position: relative;height: 30px;line-height: 30px;padding-left: 18px;; font-size: 20px;}
+.vice-header1 i{position: absolute;background: #ffd630;width: 10px;height: 10px;top: 10px;left: 0px;}
+.about-er{margin-top: 20px;}
+.about-er img{width: 150px;height: 150px;}
+.about-er .zent-col{text-align: center;}
+
+
+/*-----------信息披露----------*/
+.organize-con{margin-top: 30px;padding-bottom: 30px;font-size: 14px;border-bottom: 2px dotted #cecece;}
+.organize-con .zent-row{min-height:50px;}
+.organize-con .zent-row .zent-col:first-child{padding-left: 20px;}
+.organize-con .line1{line-height: 18px;}
+.organize-con .line2{line-height: 38px;}
+.organize-link{font-size: 14px;color: #aaaaaa;margin-top: 20px;}
+.organize-link a,.reveal-lists .reveal-green{color: #bea551;}
+.vice-header2{position: relative;height: 30px;line-height: 30px;font-size: 16px;margin-top: 15px;padding-left: 38px;}
+.vice-header2 i{position: absolute;background: #ffd630;width: 10px;height: 10px;top: 10px;left: 18px;}
+.reveal-lists{margin: 20px 0;padding-left: 19px;}
+.reveal-lists .zent-row{border-top: 1px solid #e5e5e5;border-bottom: 1px solid #e5e5e5;border-left: 1px solid #e5e5e5;margin-top: -1px;}
+.reveal-lists .zent-col{border-right: 1px solid #e5e5e5;height: 38px;line-height: 38px;text-align: center;}
+.reveal-lists1 .zent-row,.reveal-lists3 .zent-row,.reveal-lists4 .zent-col{border: 0;}
+.reveal-lists1 .zent-col{height: 156px;border: 1px dashed #e5e5e5;line-height: 156px;}
+/*--风险管理信息--*/
+.risks-mide{width:470px;line-height:28px;font-size:14px;}
+.risks-mide h5,.risks-icons2 h5{color: #aaaaaa;font-weight: 100;}
+.risks-mide p{margin-bottom: 10px;}
+.risks-mide i{position: relative;font-size: 24px;color: #ffd93f;top: 3px;}
+.risks-icon{margin:0 auto 10px;background-image:url(https://img.jylc168.com/Pc/home/disclosure/icon4.png);background-repeat:no-repeat;}
+.risks-icon1{margin-top:30px;height:112px;width:722px;}
+.risks-icon2{width:305px;height:240px;background:url(https://img.jylc168.com/Pc/home/disclosure/icon3.png) no-repeat 0 0;margin-top: 30px;}
+.risks-icon3{height:130px;width:130px;line-height:130px;color:#aaaaaa;background-position:-3px -142px;margin-bottom:20px;}
+.risks-icon4{height:110px;width:110px;background-position:-163px -163px;}
+.risks-icon5{height:110px;width:110px;background-position:-308px -163px;}
+.risks-icon6{height:110px;width:110px;background-position:-468px -163px;}
+.risks-icons{position:relative;width:100%;margin-top:30px;height: 300px;;}
+.risks-icons-line{position:absolute;left: 114px;top: 64px;width:580px;height:5px;background:#ffd367;}
+.risks-icons li{margin-left: 23px;float:left;width:250px;}
+.risks-icons1{margin-top:35px;height: 350px;}
+.risks-icons1 li{width:235px;margin-left: 45px;text-align:center;}
+.risks-icons2{margin-top:55px;}
+.risks-icons2 p{padding-left:55px;line-height:22px;}
+.risks-icons li:first-child{margin-left:0;}
+.risks-txts{font-size: 14px;padding-left: 15px;}
+.risks-txt{font-size:12px;line-height:28px;margin-top:5px;position:relative;}
+.risks-txt dt{padding-left:15px;position:relative;line-height:24px;}
+.risks-txt dt.risk-yellow{color: #ffd93f;}
+.risks-txt dd{padding-left:15px;position:relative;line-height:20px;color: #aaaaaa;}
+.risks-txt-line{position:absolute;top: 7px;left: 1px;border-left:2px dotted #b1b1b1;height:233px}
+.risks-txt-icon{position:absolute;float:left;background-image:url(https://img.jylc168.com/Pc/home/disclosure/icon4.png);background-repeat:no-repeat;z-index:8}
+.risks-txt-icon1{left: -3px;top: 6px;width:10px;height:11px;background-position:-24px -300px;background-color: #fff;}
+.risks-txt-mt1{margin-top:18px;}
+.risks-txt-mt2{margin-top:14px;}
+.risks-txt-mt3{margin-top:51px;}
+.risks-btn{width:120px;height:30px;line-height:30px;margin-top:16px;background:#e5e5e5;cursor:pointer;}
+.risks-btn1{background:#c4c4c4}
+.risks-btn2{background:#f2f2f2}
+.risks-btn3{background:#eaeaea}
+/*组织信息*/
+.partners{margin-top: 20px;height: 25px;line-height: 25px;}
+.partners .partners-boder{border-right:2px solid #e9e9e9 }
+.partners1 {height: 38px;line-height: 38px;}
+.partners1 .partners-boder{border-right:1px solid #e5e5e5 }
+.partners1 .zent-row{border-top: 1px solid #e5e5e5;border-bottom: 1px solid #e5e5e5;border-left: 1px solid #e5e5e5;margin-top: -1px;}
+.partners2{margin: 20px 0;padding-left: 19px;}
+.partners-text1{font-size: 20px;margin-top: 10px}
+.partners-text2{font-size: 16px;margin-top: 10px}
+.partners-text3{font-size: 14px;margin-top: 65px;padding-right: 50px;}
+.reveal-lists2{padding: 0;}
+.reveal-lists2 .zent-col{height: 58px;line-height: 58px;}
+.reveal-lists3 .zent-col{height: 58px;border: 1px dashed #e5e5e5;line-height: 58px;text-align: left;padding-left: 22px;}
+.reveal-lists3 .zent-col a{color: #bea650;}
+.reveal-lists4 .zent-row{height: 218px;border: 1px dashed #e5e5e5;}
+.reveal-lists4 .zent-col{height: 218px;line-height: 20px;} 
+.reveal-lists4 .zent-col img{margin-top: 10px;}
+.auditing-dates{position: relative;overflow: hidden;}
+.auditing-line{position: absolute;width: 100%; height: 1px;background: #dcdcdc;top: 39px;}
+.auditing-dates li{float: left;position: relative;width: 160px;margin-left: 80px;height: 350px;text-align: center;background: url(https://img.jylc168.com/Pc/home/disclosure/icon7.png) no-repeat 50% 16px;font-size: 14px;line-height: 126px;z-index: 2;cursor: pointer;}
+.auditing-dates li.active{background-image: url(https://img.jylc168.com/Pc/home/disclosure/icon8.png);background-position: 50% 0;}
+.auditing-dates li:hover{background-image: url(https://img.jylc168.com/Pc/home/disclosure/icon8.png);background-position: 50% 0;}
+.auditing-dates li{float: left;position: relative;width: 160px;margin-left: 80px;}
+.auditing-dates li img{opacity: .6;}
+.auditing-dates li:hover img{opacity:1;}
+/*经营信息*/
+.charge-text{line-height: 18px;padding-top: 13px;}
+.overdue-lists {margin-top: 30px;}
+.overdue-lists .zent-row:first-child .overdue-text{border-top: 2px solid #e5e5e5;color: #424242;}
+.overdue-lists .zent-col{height: 58px;text-align: center;}
+.overdue-text{height: 58px;text-align: center;display: table-cell;vertical-align:middle;line-height: 16px;width:93px;border-top: 1px solid #e5e5e5;color: #aaaaaa;}
+.major-text{text-align: left;padding-left: 35px; }
+.major-text1{line-height: 18px;padding-top: 10px}
+.operate-line{margin-top:23px; height: 6px;background: #ffd630;}
+.reveal-operate{border-bottom: 2px dashed #e5e5e5}
+.reveal-operate .zent-row,.reveal-operate1 .zent-row,.reveal-operate2 .zent-row{border: 0;}
+.reveal-operate .zent-col{height: 126px;border: 0;}
+.reveal-operate .zent-col .jy-mt{margin-top: 38px}
+.reveal-operate .zent-col p {line-height: 20px;text-align: left;}
+.reveal-operate .zent-col p b{font-size: 20px;font-family: Arial;}
+.reveal-operate1{box-shadow:0px 5px 5px rgba(0,0,0,0.2);}
+.reveal-operate1 .zent-col{height: 150px;border: 0;}
+.reveal-operate1 .operate-cont,.reveal-operate2 .operate-cont{line-height: 20px;margin-top: 13px;}
+.operate-cont span,.operate-total span{font-size: 20px;}
+.operate-list{margin-bottom: 15px;}
+.operate-list li{float: left;width: 380px;height: 58px;background-repeat:  no-repeat;background-position: 0 0;margin-top: 25px;padding-top: 12px;text-align: center;margin-left: 19px;}
+.operate-list li:nth-child(1){background-image: url(https://img.jylc168.com/Pc/home/disclosure/operate-5.png)}
+.operate-list li:nth-child(2){background-image: url(https://img.jylc168.com/Pc/home/disclosure/operate-6.png)}
+.operate-list li:nth-child(3){background-image: url(https://img.jylc168.com/Pc/home/disclosure/operate-7.png)}
+.operate-list li:nth-child(4){background-image: url(https://img.jylc168.com/Pc/home/disclosure/operate-8.png)}
+.operate-list li span{font-size: 20px;}
+.operate-tab{position: relative;margin-top: 70px;}
+.operate-tab .zent-tabs-nav-content{position: relative;height: 188px;}
+.operate-tab .zent-tabs-scroll{overflow: visible}
+.operate-tab .zent-tabs-tab{position: relative;height: 188px;width: 95px;background: url(https://img.jylc168.com/Pc/home/disclosure/icon9.png) no-repeat 0 0;border:0}
+.operate-tab .zent-tabs-tab:nth-child(even){background: url(https://img.jylc168.com/Pc/home/disclosure/icon11.png) no-repeat 0 49px;}
+.operate-tab .zent-tabs-tab .zent-tabs-tab-inner {position: relative;top: 111px;color: #ffffff} 
+.operate-tab .zent-tabs-nav{border: 0;}
+.operate-tab .zent-tabs-tab:nth-child(even)>.zent-tabs-tab-inner{position: relative;top: 46px}
+.operate-tab .zent-tabs-tab.zent-tabs-actived{background-image: url(https://img.jylc168.com/Pc/home/disclosure/icon10.png)}
+.operate-tab .zent-tabs-tab:nth-child(even).zent-tabs-actived{background-image: url(https://img.jylc168.com/Pc/home/disclosure/icon12.png)}
+.operate-tabs-line{position: absolute; height: 10px;background: #e5e5e5;width: 100%;top: 89px;}
+
+.reveal-operate2{border-bottom: 2px dashed #e5e5e5;padding-bottom: 40px;}
+.reveal-operate2 .zent-col{height: 200px;border: 0;}
+.reveal-loans{height: 340px;border-bottom: 2px dashed #e5e5e5; }
+.reveal-loans .zent-col{height: 340px;border: 0;}
+.operate-total{width: 340px;height: 300px; background: url(https://img.jylc168.com/Pc/home/disclosure/operate-13.png) no-repeat center center;line-height: 20px;text-indent: 22px;}
+.operate-total>div:nth-child(1){padding-top: 103px;}
+.operate-total>div:nth-child(2){margin-top: 62px;}
+.reveal-loans dl{margin-top: 30px;}
+.reveal-loans dd{text-align: left;position: relative;color: #aaaaaa;}
+.reveal-loans label{position: absolute;right: 20px;color: #424242}
+.reveal-loans i{color: #ffb600;margin-right: 10px;}
+.reveal-loans1,.reveal-loans1 .zent-col{height: 268px;}
+.reveal-loans1 .zent-progress.zent-progress-circle .zent-progress-info{font-size: 20px;color: #424242;}
+/*其他信息*/
+.reveal-lists5{height: 240px;}
+.reveal-lists5 .zent-row{border: 0;}
+.reveal-lists5 .zent-col{height: 240px;color: #aaaaaa;}
+.reveal-lists5 .consult-img{height: 145px;line-height: 145px;}
+.reveal-lists5 h4{color: #424242;font-size:16px;line-height: 22px;}
+.reveal-lists5 .zent-col:first-child h4{font-size: 30px;line-height: 30px;}
+.reveal-lists5 .zent-col:nth-child(2)  h4{font-size:22px;line-height: 22px;}
+.loan-text{color: #bfa451;}
+.loan-collapse .zent-collapse-panel__title{position: relative;border-bottom: 0;background: url(https://img.jylc168.com/Pc/home/about/new-icon1.png) no-repeat 0 center;padding-left: 43px;height: 34px;}
+.loan-collapse .zent-collapse-panel__title .zent-collapse-panel__arrow{position: absolute;right: 0px;}
+.loan-collapse .zent-collapse-panel--active .zent-collapse-panel__title{background-image: url(https://img.jylc168.com/Pc/home/about/new-icon2.png) ;color: #bfa451;}
+
+
+/*-------------------------------我要出借----------------------------------*/
+.screen-lists{padding-top: 30px;text-align: center}
+.screen-lists .zent-row{height: 40px;line-height: 40px;font-size: 16px;}
+.screen-lists .zent-btn{height: 30px;line-height: 30px;border: 1px solid transparent;background: transparent;min-width: 85px;font-size: 14px;}
+.screen-lists .zent-btn:hover,.screen-lists .zent-btn.active,.screen-lists .zent-btn:active{border: 1px solid #a48413;color: #a48413;}
+.product-item{border: 0!important;padding:0!important;}
+.product-item .project-item{border: 1px solid #e5e5e5;margin-bottom: 20px;padding: 20px 25px;}
+
+/*-------------------------------项目详情----------------------------------*/
+.invest-1{width: 799px; height:448px;border-top:1px solid #e5e5e5;border-bottom:1px solid #e5e5e5;border-left:1px solid #e5e5e5;}
+.invest-t{height:45px;line-height:45px;position:relative;margin-top:40px;}
+.invest-r{width:350px;height:450px;background:#e9e9e9;}
+.invest-tvice{padding:7px 23px 7px 0; background:#e5e5e5;font-size:16px;color:#aaaaaa;}
+.invest-title{position:relative;font-size:18px;color:#424242;background:#fdd23c;margin-right:24px;padding:14px 10px 11px 10px;}
+.invest-titleImg{position:absolute;right:-24px;background:url(https://img.jylc168.com/Asset/Home/common2/img/product/icon1.png) no-repeat 0 0;width:24px;height:45px;top:0;}
+.invest-rvice{color:#aaaaaa;font-size:14px;position:absolute;right:25px;}
+.invest-m{position:relative;height: 75px;margin-top:25px;text-align: center}
+.total-rate{color:#bea551;font-size:40px;line-height:40px;}
+.invest-m b{font-size: 18px;}
+.invest-b {position:relative;padding:0 50px;color:#424242;margin-top: 26px;}
+.invest-b .progress-outter{position:relative;float:left;width:500px;margin:23px 0 5px;}
+.invest-b .progress-outter img{position:absolute;top:-15px;}
+.invest-b .zent-row{height: 50px;line-height: 50px;}
+.invest-r-con{padding:40px 20px 0 20px;}
+.invest-r-con .zent-row {margin-bottom: 18px;}
+.invest-r-con .zent-row .zent-col:nth-child(2){text-align: right;}
+.invest-btn-add,.invest-btn-minus{width:40px;height:40px;line-height:32px;font-size:40px;cursor:pointer;background:#aaaaaa;text-align:center;color:#fff;}
+.invest-btn-minus.invest-btn-minus1{line-height: 40px;}
+.invest-btn-add:hover,.invest-btn-minus:hover{background:#d9c77b}
+.invest-btn-full{float:left;background:url(https://img.jylc168.com/Asset/Home/common2/img/product/invest-btn1.png) no-repeat 0 0;width:80px;height:40px;line-height:40px;text-align:center;font-size:14px;margin-left: 10px;}
+.invest-btn-full:hover,.invest-btns:hover{color:#ffffff;border-color:none;}
+.invest-input{width:140px;height:40px}
+.invest-input input{position:relative;width:130px;height:38px;padding:0 5px;line-height:33px;border:1px solid #d6d6d6}
+.invest-input input:hover{border-color:#d9c77b}
+.invest-input-con{padding:0 5px;height:33px;line-height:33px;border:1px dashed #d9c77b;background-color:#f7f7f7;opacity:0;filter:alpha(opacity=0)}
+.invest-input-con .ui-text-red{color: #d9c77b;}
+.invest-r-text{color:#aaaaaa;font-size:14px;margin-top:60px;line-height:30px;margin-bottom:15px;height:90px;}
+.invest-btns{background:url(https://img.jylc168.com/Asset/Home/common2/img/product/invest-btn2.png) no-repeat 0 0;width:310px;height:45px;line-height:45px;font-size:20px;text-align:center;display:block;border: 0;}
+.invest-btns-end{cursor: Default; background:#bfbfbf;color:#666666;}
+.invest-vertical{margin-top: 20px}
+.invest-vertical label {margin:0}
+.invest-r-end{background: #3f3a39;color: #ffffff;}
+.invest-r-end span{color:#d9c77b}
+.invest-r-end .invest-r-t{color:#fff}
+.invest-end-list{margin-top: 60px;margin-bottom: 50px;}
+.invest-end-list li{text-indent: 93px;height: 40px;line-height: 40px;background: url(https://img.jylc168.com/Pc/home/index/detail-icon1.png) no-repeat 58px 50%}
+.invest-end-list li:nth-child(2){background-image: url(https://img.jylc168.com/Pc/home/index/detail-icon2.png)}
+.invest-end-list li:nth-child(3){background-image: url(https://img.jylc168.com/Pc/home/index/detail-icon3.png)}
+.m-detial{margin-top:80px;padding-bottom: 40px;background: #fff;margin-bottom: 40px;}
+.m-detial .zent-tabs-nav{border: 0}
+.m-detial .zent-tabs-nav-content{height: 65px;line-height: 55px;font-size: 16px;}
+.m-detial .zent-tabs-tab{border: 0}
+.m-detial .zent-tabs-tab-inner{height: 55px;width:200px;background: url(https://img.jylc168.com/Asset/Home/common2/img/product/icon-top1.png) no-repeat 0 0;box-shadow:-1px 1px rgba(0,0,0,.1);padding: 0;font-size: 16px;color:#ffffff;}
+.m-detial .zent-tabs-tab:nth-child(4) .zent-tabs-tab-inner{width: 350px;height: 55px;background-image: url(https://img.jylc168.com/Pc/home/index/icon-top4.png);}
+.m-detial .zent-tabs-tab:nth-child(4).zent-tabs-actived .zent-tabs-tab-inner{background-image:url(https://img.jylc168.com/Pc/home/index/icon-top3.png);}
+.m-detial .zent-tabs .zent-tabs-actived{position:relative;top:0px;height:65px;background:url(https://img.jylc168.com/Asset/Home/common2/img/product/icon-top.png) 50% 0 no-repeat;line-height:55px;box-shadow:none;color:#ffffff;}
+.m-detial .zent-tabs-actived .zent-tabs-tab-inner{color:#ffffff;position:relative;top:0px;height:65px;background:url(https://img.jylc168.com/Asset/Home/common2/img/product/icon-top.png) 50% 0 no-repeat;line-height:55px;box-shadow:none;}
+.m-detial .zent-tabs-panewrap{border-left: 1px solid #e5e5e5;border-right: 1px solid #e5e5e5;border-bottom: 1px solid #e5e5e5;
+    min-height: 500px;position: relative;top: -19px;padding: 40px 20px 0 20px;}
+.detail-head{height: 30px;line-height: 30px;background: #e9e9e9;font-size: 14px;padding-left: 18px;}
+.detail-font{position: relative;}
+.detail-font .zent-col{min-height: 50px;line-height: 50px;font-size: 14px;padding-left: 17px;}
+.detail-font .zent-col label,.detail-font1 .zent-col label{color: #aaaaaa}
+.detail-tip{height: 150px;padding: 25px 20px;background:#ccc2a2 url(https://img.jylc168.com/Asset/Home/common2/img/product/icon3.png) no-repeat 21px 28px;font-size: 14px}
+.detail-tip div{padding-left:26px;}
+.detail-tip p{padding-left: 40px;margin-top: 20px;}
+.detail-tip p:last-child{color: #fff;}
+.detail-font1{margin-top: 20px;}
+.detail-font1 .zent-row{margin-bottom: 20PX;}
+.detail-font1 .zent-col{min-height: 20px;line-height: 20px;font-size: 14px;padding-left: 17px;}
+.detail-font1 .zent-row .zent-col:first-child{border-right: 1px solid #aaaaaa;color: #aaaaaa}
+.detail-font1 .zent-col span{color: #98cb7a}
+.detail-font1 .zent-row1 .zent-col:first-child{border: 0;color: #424242}
+.detail-imgs{margin: 40px 0;}
+.detail-imgs .image-preview-demo img{border: 1px solid #d1d1d1;margin-right: 15px;margin-bottom: 15px;}
+.jy-mask{width: 590px;border: 5px solid #fed23d;padding:0;}
+.detail-icons{height:215px;background: url(https://img.jylc168.com/Pc/home/index/icon5.png) no-repeat 50% 50%;border-bottom: 1px solid #e5e5e5}
+
+
+/*-------------------------------产品介绍----------------------------------*/
+.product_list{position:relative;margin-top:-175px;}
+.product_list li{position:relative;width:557px;height:315px;float:left;margin-right:18px;background:#ffffff;border-top:6px solid #fec83a;box-shadow:0px 5px 5px rgba(0,0,0,.1)}
+.product_list h4{color:#bea551;text-align:center;font-size:20px;margin-top:18px;}
+.product-wrapper{position:absolute;bottom:0;left:0;width:560px;height:100px;background:#7a7a7a;opacity: 0;filter: alpha(opacity=0)\9;-webkit-transition: all .2s linear;
+    transition: all .2s linear;}
+.product-wrapper a{display:block;width:289px;height:45px;background:url(https://img.jylc168.com/Pc/home/about/product_btn.png?=1) no-repeat 0 0;text-align:center;font-size:20px;line-height:45px;margin:28px auto 0;}
+.product-wrapper a:hover{color:#ffffff;}
+.product_list li:hover .product-wrapper{opacity: .8;filter: alpha(opacity=80)\9;}
+.product-content{margin-top:73px;padding:43px 20px;border:1px solid #e5e5e5;margin-bottom: 80px; }
+.product-head{height:30px;line-height:30px;font-size:14px;background:#e9e9e9;padding-left:14px;}
+.product-head b{font-size:20px;margin-right: 28px;}
+.product-easy,.product-easy1{margin:50px 0;position:relative;}
+.product-easy li{float:left;height:60px;width:270px;}
+.product-easy li img{margin: 0 20px 0 30px;}
+.product-easy li p{margin-top: 10px}
+.product-easy label{line-height:16px;}
+.product-easy label span{font-size: 20px;font-weight:bold;}
+.product-easy1 li{float:left;height:220px;width:180px;text-align:center;margin:0 45px;}
+.product-easy1 li h5{font-size: 20px;}
+.product-easy2{margin-top:30px;}
+.product-easy2 li{float:left;height:100px;width:360px;text-align:center;margin:5px 0;}
+.product-easy2 li h5{margin-top: 10px;font-weight: 100;}
+.product-icon1{left:260px;top:72px;}
+.product-icon2{left:525px;top:72px;}
+.product-icon3{left:796px;top:72px;}
+.product-inver{border:1px solid #e5e5e5;margin-top: 20px;height: 288px;}
+.product-invers{height:45px;margin-top:40px;line-height: 45px;}
+.product-ml {margin-top: 42px;}
+.product-ml .zent-col{height: 130px;}
+.product-ml span{font-size: 34px;color:#bea551}
+.product-apply{display:block;width:289px;height:45px;background:url(https://img.jylc168.com/Pc/home/about/product_btn.png?=1) no-repeat 0 0;text-align:center;font-size:20px;line-height:45px;margin-left: 65px;}
+.product-apply:hover{color:#ffffff;}
+.product-easy3{font-size:14px;margin-top:20px;}
+.product-easy3 li{line-height:38px;}
+.product-easy3 li i{background:url(https://img.jylc168.com/Pc/home/about/dot.png) no-repeat 50% 50%;padding:0px 26px 0px 6px;}

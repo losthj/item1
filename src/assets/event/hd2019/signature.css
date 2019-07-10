@@ -1,0 +1,90 @@
+@charset "utf-8";
+/*Write the date 2017-11-24*/
+#doc-view{background-color:#fff;}
+em,i{font-style:normal;}
+.fm{font-family:Impact;}
+.fa{font-family:Arial;}
+.jy-white{color:#fff;}
+.jy-red{color:#dd2323;}
+.jy-yellow{color:#ffdf2f;}
+.jy-green{color:#f1c380}
+.jy-blue{color:#058880;}
+.jy-td{text-decoration:line-through}
+.jy-pa{position:absolute;}
+.jy-he{height:10px;}
+.jy-fz22{font-size:22px;line-height:22px;}
+.jy-fz30{font-size:30px;line-height:30px;}
+.jy-mt-5{margin-top:5px}/*距上5像素*/
+.jy-mt-10{margin-top:10px}/*距上10像素*/
+.jy-mt-15{margin-top:15px}/*距上15像素*/
+.jy-mt-20{margin-top:20px}/*距上20像素*/
+.jy-mt-25{margin-top:25px}/*距上25像素*/
+.jy-mt-30{margin-top:30px}/*距上30像素*/
+.jy-mt-35{margin-top:35px}/*距上35像素*/
+.jy-mt-40{margin-top:40px}/*距上40像素*/
+.jy-mt-50{margin-top:50px}/*距上50像素*/
+.jy-fz-16 {
+  font-size: 16px;
+}
+.jy-fz-24 {
+  font-size: 24px;
+}
+.jy-text-c{
+  text-align: center;
+}
+.jy-text-fff {
+  color: #fff;
+}
+
+.btn-state{-webkit-filter: grayscale(1);filter: gray;}
+.btn-state:hover{filter: gray;color:gray;cursor:default;}
+#bg1{background:url(https://img.jylc168.com/Asset/Home/index/ca/images/bg_01.jpg) 50% 0 no-repeat;margin:0 auto;width:100%;height:460px;}
+#area1{width:1170px;height:460px;margin:0 auto;position:relative;overflow:hidden;}
+#bg2{background:url(https://img.jylc168.com/Asset/Home/index/ca/images/bg_02.jpg) 50% 0 no-repeat;margin:0 auto;width:100%;height:616px;}
+#area2{width:1170px;height:616px;margin:0 auto;position:relative;}
+#bg3{background:url(https://img.jylc168.com/Asset/Home/index/ca/images/bg_03.jpg) 50% 0 no-repeat;margin:0 auto;width:100%;height:673px;}
+#area3{width:1170px;height:673px;margin:0 auto;position:relative;}
+#bg4{background:url(https://img.jylc168.com/Asset/Home/index/ca/images/bg_04.jpg) 50% 0 no-repeat;margin:0 auto;width:100%;height:666px;}
+#area4{width:1170px;height:666px;margin:0 auto;position:relative}
+#bg5{background:url(https://img.jylc168.com/Asset/Home/index/ca/images/bg_05.jpg) 50% 0 no-repeat;margin:0 auto;width:100%;height:708px;}
+#area5{width:1170px;height:708px;margin:0 auto;position:relative}
+#bg6{background:url(https://img.jylc168.com/Asset/Home/index/ca/images/bg_06.jpg) 50% 0 no-repeat;margin:0 auto;width:100%;height:692px;}
+#area6{width:1170px;height:692px;margin:0 auto;position:relative}
+#bg7{background:url(https://img.jylc168.com/Asset/Home/index/ca/images/bg_07.jpg) 50% 0 no-repeat;margin:0 auto;width:100%;height:1068px;}
+#area7{width:1170px;height:1068px;margin:0 auto;position:relative}
+#bg8{background:url(https://img.jylc168.com/Asset/Home/index/ca/images/bg_08.jpg) 50% 0 no-repeat;margin:0 auto;width:100%;height:797px;}
+#area8{width:1170px;height:797px;margin:0 auto;position:relative}
+#bg9{background:url(https://img.jylc168.com/Asset/Home/index/ca/images/bg_09.jpg) 50% 0 no-repeat;margin:0 auto;width:100%;height:943px;}
+#area9{width:1170px;height:943px;margin:0 auto;position:relative}
+/*slogan*/
+.cz-slogan{left: 81px;top: 286px;}
+.cz-slogan1{left: 408px;top: 72px;color:#f1c380;font-size:22px;}
+.cz-slogan2{right: 290px;top: 355px;color:#fff;font-size:16px;}
+.cz-banner{left: 216px;top: 59px;}
+.cz-title{margin-top:124px;}
+.cz-title1{margin-top: 100px;}
+.cz-title2{margin-top: 380px;}
+.cz-title3{margin-top: 39px;}
+.cz-title4{margin-top: 22px;}
+.cz-reliable{position:relative;}
+.cz-reliable li{position:absolute;color:#f1c380;font-size:16px;}
+.cz-reliable-txt1{left: 249px;top: 28px;opacity:0;}
+.cz-reliable-txt2{left: 692px;top: 19px;opacity:0;}
+.cz-reliable-txt3{left: 308px;top: 307px;opacity:0;}
+.cz-reliable-txt4{left: 789px;top: 287px;opacity:0;}
+.cz-superiority{margin-top:30px;margin-left: 6px;}
+.cz-superiority li{float:left;margin-right:34px;}
+.cz-btn1{display:block;margin:0 auto;color:#543b15;background:url(https://img.jylc168.com/Asset/Home/index/ca/images/btn.png) no-repeat 0 0;width:260px;height:46px;line-height:46px;text-align:center;font-size:26px;}
+.cz-btn1:hover,.cz-btn2:hover{color:#fff;}
+.cz-btn2{position:absolute;bottom:100px;left: 351px;display:block;margin:0 auto;color:#543b15;background:url(https://img.jylc168.com/Asset/Home/index/ca/images/btn-li.png) no-repeat 0 0;width:465px;height:80px;line-height:80px;text-align:center;font-size:40px;}
+
+/*浮动导航*/
+.sidebar{position:fixed;width:180px;height:567px;right:20px;bottom:50px;background:url(https://img.jylc168.com/Asset/Home/index/ca/images/sidebar.png) no-repeat center center;z-index:20;}
+.sidebar li{position:relative;text-align:center;font-size:20px;padding-left: 10px;}
+.sidebar li a{color:#543b15;}
+.side-icon1{top: 109px;line-height:20px;}
+.side-icon2{top: 145px;}
+.side-icon3{top: 176px;}
+.side-icon4{top: 208px;}
+.side-icon5{top: 234px;}
+.side-icon6{top: 285px;}

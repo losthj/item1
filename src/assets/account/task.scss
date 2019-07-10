@@ -1,0 +1,184 @@
+.m-task {
+  position: relative;
+  margin: 20px 0 0 60px;
+  &:after {
+    content: '';
+    position: absolute;
+    left: -30px;
+    top: 35px;
+    width: 2px;
+    height: calc(100% - 70px); 
+    background-color: #a08a64;
+  }
+  .m-task-item {
+    position: relative;
+    display: flex;
+    align-items: center;
+    height: 68px;
+    border:1px solid #e5e5e5;
+    margin-bottom: 10px;
+    .icon-right {
+      position: absolute;
+      top: 19px;
+      left: -43px;
+      font-size: 26px;
+      color: #a08a64;
+      background-color: #fff;
+      z-index: 3;
+    }
+    &.m-task-wait {
+      &:after{
+        content: '';
+        position: absolute;
+        left: -31px;
+        top: 35px;
+        width: 2px;
+        height: 80px; 
+        background-color: #e5e5e5;
+        z-index: 2;
+      }
+      .icon-right {
+        color: #e5e5e5;
+      }
+    }
+    &:last-of-type.m-task-wait{
+      &:after{
+        display: none;
+      }
+    }
+    .task-item-con {
+      padding: 0 25px;
+      .u-btn {
+        width: 98px;
+        height: 28px;
+        line-height: 28px;
+        color: #fff;
+        text-align: center;
+        border-radius:3px;
+        &.wait-btn {
+          border:1px solid #a08a64;
+          color: #a08a64;
+        }
+      }
+      .task-info {
+        line-height: 20px;
+      }
+    }
+  }
+
+}
+.task-explain {
+  margin: 20px 0 0 60px;
+  padding: 10px 20px;
+  font-size: 12px;
+  background-color: #f5f2e9;
+  line-height: 2;
+}
+
+.task-recommon-item {
+  position: relative;
+  width: 212px;
+  height: 118px;
+  border:1px solid #e5e5e5;
+  line-height: 20px;
+  font-size: 12px;
+  text-align: center;
+  &:before{
+    content: '◤';
+    position: absolute;
+    left: -6px;
+    top: 9px;
+    color: #a08a64;
+    font-size: 50px;
+  }
+  .recommon-corner {
+    position: absolute;
+    left: 0;
+    top: 0;
+    font-size: 12px;
+    color: #fff;
+    line-height: 14px;
+    text-align: left;
+  }
+  .recommon-item-info {
+    margin: 20px 0 10px;
+  }
+  .u-btn {
+    cursor: pointer;
+    display: inline-block;
+    width: 98px;
+    height: 28px;
+    line-height: 28px;
+    color: #fff;
+    border-radius:3px;
+  }
+}
+.recommon-progress {
+  position: relative;
+  margin: 80px 0 40px;
+  border-radius:10px;
+  background-color: #e5e5e5;
+  width: 100%;
+  height: 4px;
+  li {
+    position: relative;
+    float: left;
+    width: 11%;
+    height: 4px;
+    span {
+      position: relative;
+      top: -25px;
+      font-size: 12px;
+      color: #ccc;
+    }
+    .arr-bg {
+      position: absolute;
+      right: -15px;
+      top: -32px;
+      width: 36px;
+      height: 23px;
+      line-height: 23px;
+      text-align: center;
+      font-size: 12px;
+      font-style: normal;
+      color: #fff;
+      background: url(https://img.jylc168.com/Pc/account/index/recommon_arr.png) 50% 50% no-repeat;
+    }
+    &:before{
+      content: '';
+      position: absolute;
+      width: 8px;
+      height: 8px;
+      border-radius:50%;
+      background-color: #e5e5e5;
+      top: -2px;
+      right: -2px;
+    }
+    &.get-recommon, &.get-recommon:before {
+      background-color: #a08a64;
+    }
+    &:first-of-type, &:last-of-type{
+      width: 6%;
+      border-radius: 10px 0 0 10px;
+    }
+    &:last-of-type {
+      text-align: right;
+      &:before {
+        display: none;
+      }
+    }
+  }
+}
+.merge-btn {
+  display: block;
+  margin: 0 auto;
+  font-weight: 800;
+  width: 174px;
+  height: 36px;
+  color: #fff;
+  line-height: 36px;
+  font-size: 14px;
+  text-align: center;
+  border-radius:100px;
+  cursor: pointer;
+}

@@ -1,0 +1,156 @@
+input[type=password]:-webkit-autofill,input[type=text]:-webkit-autofill{-webkit-box-shadow: 0 0 0 1000px #fff inset;}
+.login-warp {
+  border-top:3px solid #ffc40d;
+  background:url(https://jylc168.oss-cn-shanghai.aliyuncs.com/Asset/Home/common2/img/active/20180327/login.jpg) 50% 50% no-repeat;
+}
+.login-con {
+  position:relative;
+  width:1170px;
+  height:600px;
+  margin:0 auto;
+}
+.login-frame{
+  position:absolute;
+  width:500px;
+  height: 500px;
+  top:50px;
+  right:0;
+  background:url(https://img.jylc168.com/Asset/Home/common/img/register/login1_bg.png) 50% 50% no-repeat
+}
+.login-title{
+  text-align:center;
+  .title {
+    font-size:24px;
+    font-weight:800;
+    color: #ffc40d;
+    position: absolute;
+    width: 100%;
+    top: 36px;
+  }
+  .leaf {
+    background: url(https://img.jylc168.com/Asset/Home/common/img/register/leaf.png) no-repeat 50% 50%;
+    width: 100px;
+    height: 92px;
+    position: absolute;
+    right: 36px;
+    top: 26px;
+  }
+  .reg-genre {
+    background: url(https://img.jylc168.com/Asset/Home/common/img/register/reg1_icon.png) no-repeat;
+    width: 40px;
+    height: 38px;
+    display: block;
+    position: relative;
+    cursor: pointer;
+  }
+  .enter {
+    background-position: -1px -50px;
+    margin: 36px 0 0 16px;
+  }
+  // 企业
+  // .reg-genre:hover {
+  //   .tip-icon{
+  //     display: block;
+  //   }
+  // }
+  .tip-icon {
+    width: 165px;
+    height: 28px;
+    background: url(https://img.jylc168.com/Asset/Home/common/img/register/tip_icon.png) no-repeat 0 0;
+    position: absolute;
+    left: 39px;
+    display: none;
+    top: 6px;
+  }
+  .tip-icon1 {
+    background-position: 0 -32px;
+  }
+}
+.psw-interst{
+  position: absolute;
+  left:65px;
+  top:110px;
+  width: 130px;
+  height: 92px;
+  background:url(https://img.jylc168.com/Asset/Home/common/img/register/openeye.png) 0 0 no-repeat;
+  z-index: 5;
+}
+.reg-list{
+  position: absolute;
+  z-index: 4;
+  position: absolute;
+  top:196px;
+  left: 71px;
+  li{
+    position:relative;
+    height:34px;
+    line-height:34px;
+    margin-bottom:32px;
+    .reg-input[type=password],.reg-input[type=text]{
+      width:315px;
+      height:20px;
+      line-height:20px;
+      border:1px solid #d6d6d6;
+      padding:6px 7px 6px 34px;
+      color:#959595
+    }
+    .reg-icon{
+      position:absolute;
+      top:2px;
+      left:8px;
+      width:20px;
+      height:30px;
+      background:url(https://img.jylc168.com/Asset/Home/common/img/register/reg_icon.png) 50% 1px no-repeat
+    }
+    .reg-psw{background-position:50% -136px}
+    .serif {
+      color: #8c8c8c;
+      padding:0 3px;
+    }
+  }
+}
+.login-con .reg-sub {
+  position: absolute;
+  left: 100px;
+  top: 335px;
+}
+.reg-sub {
+  padding-top: 45px;
+  .u-btn-big {
+    width: 300px;
+    font-size: 22px;
+    font-weight: 700;
+    color: #fff;
+    display:block;
+    height:45px;
+    border-radius:3px;
+    line-height:45px;
+    text-align:center;
+    background-color:#fdd23c;
+    &:hover {
+      color:#fff;
+      background-color:#e7b413;
+    }
+  }
+}
+
+.login-link {
+  padding-right: 72px
+}
+
+.reg-input:focus,.ui-input:focus {
+  border-color: #ffc40d;
+  background: #FFF;
+  outline: 0;
+  box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(162,189,129,.6);
+  -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(162,189,129,.6)
+}
+.login-info {
+  position: absolute;
+  top: 156px;
+  left: 71px;
+  width:358px;
+  line-height:20px;
+  text-align: center;
+  color: #e25744;
+}

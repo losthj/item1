@@ -1,0 +1,208 @@
+@import "./iconfont/iconfont.css";
+body {
+  font-size: 14px;
+  color: #333;
+  line-height: 1.8;
+}
+a {
+  color:#333;
+  &:hover{
+    @extend .current-color;
+  }
+}
+input {
+  border:none;
+  &:focus{
+    outline: none;
+  }
+}
+table{
+  border-collapse:collapse;
+  border-spacing:0
+}
+.tal {
+  text-align: left
+}
+
+.tar {
+  text-align: right
+}
+
+.tac {
+  text-align: center
+}
+.taj {
+  text-align: justify;
+}
+.txo {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap
+}
+
+.current-color {
+  color: #d4a539;
+}
+.container {
+  width: 1150px;
+  margin: 0 auto;
+}
+
+.text-white {
+  color: #fff;
+}
+.text-yellow-1 {
+  color: #bea551;
+}
+.text-yellow-2 {
+  color: #a48413;
+}
+.text-yellow-3 {
+  color: #fdd23e;
+}
+.mt-5 {
+  margin-top: 5px;
+}
+.mt-10 {
+  margin-top: 10px;
+}
+.mt-20 {
+  margin-top: 20px;
+}
+.mt-30 {
+  margin-top: 30px;
+}
+.fz12 {
+  font-size: 12px;
+}
+.fz14 {
+  font-size: 14px;
+}
+.fz16 {
+  font-size: 16px;
+}
+.fz18 {
+  font-size: 18px;
+}
+.fz20 {
+  font-size: 20px;
+}
+.fz22{
+  font-size: 22px;
+}
+.fz24{
+  font-size: 24px;
+}
+.separator {
+  padding:0 3px;
+}
+.nowrap {
+  white-space: nowrap;
+}
+.line-through {
+  text-decoration: line-through;
+}
+.clearfix:after {
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden
+}
+
+.clearfix {
+  zoom: 1
+}
+
+.m-btn {
+  display: block;
+  top: 19px;
+  height: 45px;
+  line-height: 45px;
+  background: #fed547;
+  background: -webkit-linear-gradient(#fedd6a, #fdd64c, #fdcf2f);
+  font-size: 18px;
+  color: #424242;
+  box-shadow: 0 0 3px #dab73f;
+  text-align: center;
+  &:hover{
+    color: #fff;
+  }
+}
+.filterGray {
+  filter: grayscale(1);
+  -webkit-filter: grayscale(1);
+}
+.flex-center{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.align-center {
+  display: flex;
+  align-items: center;
+}
+.progress-outter {
+  height: 6px;
+  background-color: #e0e0e0;
+  border-radius: 3px
+}
+
+.progress-inner {
+  background-color: #fdd23c;
+  height: 6px;
+  border-radius: 3px
+}
+
+.nav {
+  background-color: #424242;
+  height: 35px;
+  line-height: 35px;
+  overflow: hidden;
+}
+.nav-l {
+  float: left;
+  li {
+    @extend .text-white;
+    display: inline-block;
+    background-position: 0 50%;
+    padding-left: 20px;
+    padding-right: 10px;
+    background-repeat: no-repeat;
+    background-image: url(https://img.jylc168.com/Pc/home/index/tel.png);
+  }
+
+  .phone {
+    padding-left: 15px;
+    background-image: url(https://img.jylc168.com/Pc/home/index/mobile.png);
+  }
+  .info, .splitter {
+    background-image: none;
+    @extend .text-yellow-3;
+  }
+  .splitter {
+    position: relative;
+    top: 4px;
+    width: 1px;
+    height: 16px;
+    padding: 0;
+    margin-right: 10px;
+    background-color: #1b1b1b;
+  }
+  .info {
+    padding-left: 10px;
+  }
+}
+.nav-r {
+  float: right;
+  li {
+    display: inline-block;
+    a {
+      color: #fff;
+      padding: 0 10px;
+      &.text-yellow-3, &:hover {
+        @extend .text-yellow-3
+      }
+    }
+  }
+}
